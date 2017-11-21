@@ -1,0 +1,48 @@
+ body {
+   font-family: verdana;
+ }
+#btn {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+  border: 1px solid black;
+  outline: 1px solid white;
+}
+h1 {
+  position: absolute;
+  top: 0;
+  left: 12%;
+  display: inline-block;
+}
+hr {
+  width: 35px;
+  border: 1px solid blue;
+}
+
+nav {
+  width: 60%;
+  margin-left: 20%;
+  text-align: left;
+}
+/* o tambien ul*/
+ul {
+  list-style: none;
+
+}
+li:hover {
+  background-color: lightgrey;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+/* Muestra los link*/
+.enabled-menu {
+  display: block;
+}
+/* Oculta los elementos*/
+.disabled-menu {
+  display: none;
+}
